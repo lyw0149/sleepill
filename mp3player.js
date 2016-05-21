@@ -18,12 +18,12 @@ var sendIndex=0;
 var mDeviceID="abcdefg"
 
 ///////////////////////////////////
-speaker = new Speaker();
-    decoder = new lame.Decoder();
+//speaker = new Speaker();
+//    decoder = new lame.Decoder();
 
     //stream = fs.createReadStream(data.fileurl);
-    stream = fs.createReadStream("./crowd.mp3");
-    stream.pipe(decoder).pipe(speaker);
+  //  stream = fs.createReadStream("./crowd.mp3");
+   // stream.pipe(decoder).pipe(speaker);
 /////////////////////////////////////
 
 

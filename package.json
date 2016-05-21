@@ -15,6 +15,7 @@
     "wav": "^1.0.0",
     "johnny-five" : "latest",
     "raspi-io" : "latest",
-    "socket.io-client": "latest"
+    "socket.io-client": "latest",
+    "serialport" : "latest"
   }
 }
