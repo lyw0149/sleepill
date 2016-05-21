@@ -1,0 +1,20 @@
+{
+  "name": "haxmax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "depandencies": {
+    "socket.io-client": "latest"
+  },
+  "dependencies": {
+    "lame": "^1.2.3",
+    "request": "^2.72.0",
+    "speaker": "^0.3.0",
+    "wav": "^1.0.0"
+  }
+}
