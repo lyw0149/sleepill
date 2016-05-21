@@ -1,5 +1,4 @@
-
-  'use strict'
+'use strict'
 
 var fs = require('fs');
 var lame = require('lame');
@@ -17,6 +16,15 @@ var sendIndex=0;
 
 //unique device id
 var mDeviceID="abcdefg"
+
+///////////////////////////////////
+speaker = new Speaker();
+    decoder = new lame.Decoder();
+
+    //stream = fs.createReadStream(data.fileurl);
+    stream = fs.createReadStream("./crowd.mp3");
+    stream.pipe(decoder).pipe(speaker);
+/////////////////////////////////////
 
 
 socket.on('connect', function(){

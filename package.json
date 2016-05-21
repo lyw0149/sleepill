@@ -8,13 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "depandencies": {
-    "socket.io-client": "latest"
-  },
   "dependencies": {
     "lame": "^1.2.3",
     "request": "^2.72.0",
     "speaker": "^0.3.0",
-    "wav": "^1.0.0"
+    "wav": "^1.0.0",
+    "johnny-five" : "latest",
+    "raspi-io" : "latest",
+    "socket.io-client": "latest"
   }
 }
